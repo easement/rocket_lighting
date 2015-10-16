@@ -8,3 +8,7 @@ Light up soda bottles which will be worn invertred on my back so that they looks
 Arduino Nano clone (ebay) - $4 
 USB power bank (banggood.com SKU084325) - $5.40
 adafruit smart pixels http://www.adafruit.com/products/2226 - $6.00
+
+
+### RIYL
+Heavily based on a previous project, a Mrs. Pacman lantern. https://github.com/easement/lantern
