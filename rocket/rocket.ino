@@ -7,6 +7,8 @@
 #include <Adafruit_NeoPixel.h>
 #include <avr/power.h>
 
+// We have the notion on if this is for the bottom (fade red and orange) or the top (white flashing).
+#define ISBOTTTOM  1
 
 // Which pin on the Arduino is connected to the Neostrip?
 // On a Trinket or Gemma we suggest changing this to 1
@@ -26,7 +28,6 @@ uint32_t red = strip.Color(255, 0, 0);
 uint32_t orange = strip.Color(255, 102, 0);
 uint32_t cyan = strip.Color(0, 255, 255);
 uint32_t pink = strip.Color(255, 182, 193);
-
 
 uint32_t blue = strip.Color(0, 0, 255);
 uint32_t black = strip.Color(0, 0, 0);
